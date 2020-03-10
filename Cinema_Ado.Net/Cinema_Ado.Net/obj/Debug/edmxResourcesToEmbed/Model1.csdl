@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AgeRestriction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Films" Relationship="Self.Films_fk0" FromRole="Category" ToRole="Films" />
+  </EntityType>
+  <EntityType Name="Film">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="AgeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="Self.Films_fk0" FromRole="Films" ToRole="Category" />
+    <NavigationProperty Name="Sessions" Relationship="Self.Session_fk1" FromRole="Films" ToRole="Session" />
+  </EntityType>
+  <EntityType Name="Hall">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Hall1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Plas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HallId" Type="Int32" Nullable="false" />
+    <Property Name="Row" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Session">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HallId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="FilmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Film" Relationship="Self.Session_fk1" FromRole="Session" ToRole="Films" />
+    <NavigationProperty Name="Tickets" Relationship="Self.fk_SessionIdTickets" FromRole="Session" ToRole="Tickets" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="PlaceId" Type="Int32" Nullable="false" />
+    <Property Name="SessionId" Type="Int32" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Session" Relationship="Self.fk_SessionIdTickets" FromRole="Tickets" ToRole="Session" />
+  </EntityType>
+  <Association Name="Films_fk0">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Films" Type="Self.Film" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Films">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Session_fk1">
+    <End Role="Films" Type="Self.Film" Multiplicity="1" />
+    <End Role="Session" Type="Self.Session" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Films">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Session">
+        <PropertyRef Name="FilmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SessionIdTickets">
+    <End Role="Session" Type="Self.Session" Multiplicity="1" />
+    <End Role="Tickets" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Session">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="SessionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AgeRestrictions" EntityType="Self.AgeRestriction" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Films" EntityType="Self.Film" />
+    <EntitySet Name="Halls" EntityType="Self.Hall" />
+    <EntitySet Name="Halls1" EntityType="Self.Hall1" />
+    <EntitySet Name="Plases" EntityType="Self.Plas" />
+    <EntitySet Name="Sessions" EntityType="Self.Session" />
+    <EntitySet Name="Tickets" EntityType="Self.Ticket" />
+    <AssociationSet Name="Films_fk0" Association="Self.Films_fk0">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Films" EntitySet="Films" />
+    </AssociationSet>
+    <AssociationSet Name="Session_fk1" Association="Self.Session_fk1">
+      <End Role="Films" EntitySet="Films" />
+      <End Role="Session" EntitySet="Sessions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SessionIdTickets" Association="Self.fk_SessionIdTickets">
+      <End Role="Session" EntitySet="Sessions" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
