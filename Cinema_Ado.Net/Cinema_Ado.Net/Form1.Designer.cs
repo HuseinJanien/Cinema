@@ -40,11 +40,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(722, 46);
+            this.button1.Location = new System.Drawing.Point(743, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 52);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Добавить фильм";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -82,17 +82,17 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(136, 74);
+            this.comboBox1.Location = new System.Drawing.Point(112, 109);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(226, 24);
             this.comboBox1.TabIndex = 2;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(441, 74);
+            this.comboBox2.Location = new System.Drawing.Point(452, 109);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
+            this.comboBox2.Size = new System.Drawing.Size(194, 24);
             this.comboBox2.TabIndex = 3;
             // 
             // Form1

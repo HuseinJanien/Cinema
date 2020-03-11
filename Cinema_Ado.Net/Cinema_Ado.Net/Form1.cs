@@ -19,16 +19,18 @@ namespace Cinema_Ado.Net
             InitializeComponent();
            
         }
-        //string? GetCatId(int id)
-        //{
-        //    return comboBox1?.Items[id + 1]?.ToString();
-        //    return null;
-        //}
-        //string? GetAgeId(int id)
-        //{
-        //    return comboBox2?.Items[id + 1]?.ToString();
-        //    return null;
-        //}
+
+        string? GetCatId(int id)
+        {
+            return comboBox1?.Items[id]?.ToString();
+            return null;
+        }
+
+        string? GetAgeId(int id)
+        {
+            return comboBox2?.Items[id ]?.ToString();
+            return null;
+        }
         private void Init()
         {
 
@@ -50,8 +52,8 @@ namespace Cinema_Ado.Net
             {
                 var item = listView1.Items.Add(el.Id.ToString());
                 item.SubItems.Add(el.Name.ToString());
-                item.SubItems.Add(el.CategoryId.ToString());
-                item.SubItems.Add(el.CategoryId.ToString());
+                item.SubItems.Add(GetCatId(el.CategoryId).ToString());
+                item.SubItems.Add(GetAgeId(el.AgeId).ToString());
 
             }
             if (comboBox1.Items.Count > 0)
@@ -67,7 +69,6 @@ namespace Cinema_Ado.Net
         private void button1_Click(object sender, EventArgs e)
         {
             Films1 form3 = new Films1(dataManager);
-
             if (DialogResult.OK == form3.ShowDialog())
             {
                 Init();

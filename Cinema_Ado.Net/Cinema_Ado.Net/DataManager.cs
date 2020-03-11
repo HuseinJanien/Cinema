@@ -21,6 +21,11 @@ namespace Cinema_Ado.Net
 
         public DataManager()
         {
+            LoadData();
+        }
+
+        public void LoadData()
+        {
             halls = new List<Halls>();
             places = new List<Places>();
             categories = new List<Category>();
@@ -28,11 +33,6 @@ namespace Cinema_Ado.Net
             films = new List<Films>();
             sessions = new List<Session>();
             tickets = new List<Tickets>();
-            LoadData();
-        }
-
-        public void LoadData()
-        {
             string queryHalls = "SELECT * FROM Halls";
             string queryPlaces = "SELECT * FROM Plases";
             string queryCategory = "SELECT * FROM Category";
@@ -123,6 +123,24 @@ namespace Cinema_Ado.Net
             connection.Close();
         }
 
+
+        public async Task AddFilmAsync(Films f)
+        {
+            string queryAddSession ="insert into  Films(Name, CategoryId, AgeId) VALUES (@Name, @CategoryId, @AgeId)";
+            await  connection.OpenAsync();
+            using (SqlCommand cmd = new SqlCommand(queryAddSession, connection))
+            {
+                cmd.Parameters.Add("@Name", SqlDbType.NVarChar).Value = f.Name;
+                cmd.Parameters.Add("@CategoryId", SqlDbType.Int).Value = f.CategoryId;
+                cmd.Parameters.Add("@AgeId", SqlDbType.Int).Value = f.AgeId;
+                cmd.ExecuteNonQuery();
+                connection.Close();
+                films.Add(f);
+                LoadData();
+            }
+
+
+        }
 
     }
 }

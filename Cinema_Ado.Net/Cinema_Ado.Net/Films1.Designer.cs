@@ -46,11 +46,11 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_ClickAsync);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(722, 205);
+            this.button2.Location = new System.Drawing.Point(771, 205);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(174, 98);
             this.button2.TabIndex = 1;
@@ -86,27 +86,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(179, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Text = "Категория";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(514, 83);
+            this.label2.Location = new System.Drawing.Point(516, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(62, 17);
             this.label2.TabIndex = 6;
-            this.label2.Text = "label2";
+            this.label2.Text = "Возраст";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(840, 92);
+            this.label3.Location = new System.Drawing.Point(811, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(72, 17);
             this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
+            this.label3.Text = "Название";
             // 
             // Films1
             // 
@@ -121,7 +121,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Films1";
             this.Text = "Films";
             this.Load += new System.EventHandler(this.Films1_Load);
