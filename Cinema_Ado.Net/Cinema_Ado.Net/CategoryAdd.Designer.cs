@@ -75,6 +75,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "CategoryAdd";
             this.Text = "CategoryAdd";
+            this.Load += new System.EventHandler(this.CategoryAdd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

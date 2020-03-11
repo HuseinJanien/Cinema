@@ -33,8 +33,6 @@ namespace Cinema_Ado.Net
         }
         private void Init()
         {
-
-
             listView1.Items.Clear();
             comboBox1.Items.Clear();
             comboBox2.Items.Clear();
@@ -84,6 +82,7 @@ namespace Cinema_Ado.Net
         {
             int selected = int.Parse(listView1.FocusedItem.SubItems[0].Text);
             dataManager.DeleteFilm(selected);
+            Init();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -93,6 +92,12 @@ namespace Cinema_Ado.Net
             {
                 Init();
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {           
+            dataManager.DeleteCategory(comboBox1.Text);
+            Init();
         }
     }
 }

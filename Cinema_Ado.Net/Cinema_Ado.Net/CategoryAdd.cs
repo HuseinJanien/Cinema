@@ -40,8 +40,6 @@ namespace Cinema_Ado.Net
             var t = Task.Run(async () => {
                 try
                 {
-
-
                     if (textBox1.Text.Length == 0)
                     {
                         throw new Exception("Please enter text");
@@ -50,8 +48,7 @@ namespace Cinema_Ado.Net
                     {
                         throw new Exception("Is exist");
                     }
-                    await DataManager.AddCategoryAsync(new Category()
-                    { Name = textBox1.Text });             
+                    await DataManager.AddCategoryAsync(new Category() { Name=textBox1.Text});         
                     this.DialogResult = DialogResult.OK;
                 }
                 catch (Exception er)
@@ -59,6 +56,11 @@ namespace Cinema_Ado.Net
                     MessageBox.Show(er.Message, "Eror", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             });
+        }
+
+        private void CategoryAdd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

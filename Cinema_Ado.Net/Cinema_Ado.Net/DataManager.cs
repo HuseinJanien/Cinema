@@ -156,8 +156,7 @@ namespace Cinema_Ado.Net
         }
 
         public async void DeleteFilm(int Id)
-        {
-   
+        { 
                 string? query = $"DELETE FROM Films WHERE Id = @Id";
                 await connection.OpenAsync();
                 using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -167,7 +166,19 @@ namespace Cinema_Ado.Net
                     connection.Close();               
                     LoadData();
                 }
+        }
 
+        public async void DeleteCategory(string Id)
+        {
+            string? query = $"DELETE FROM Category WHERE Name = @Id";
+            await connection.OpenAsync();
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.AddWithValue("@Id", Id);
+                cmd.ExecuteNonQuery();
+                connection.Close();
+                LoadData();
+            }
         }
 
     }
