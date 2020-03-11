@@ -18,6 +18,7 @@ namespace Cinema_Ado.Net.Models
         }
         public Films(int Id,string Name, int CategoryId, int AgeId)
         {
+            this.Id = Id;
             this.Name = Name;
             this.CategoryId = CategoryId;
             this.AgeId = AgeId;

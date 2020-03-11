@@ -34,36 +34,38 @@ namespace Cinema_Ado.Net
                 }
             }
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void  button1_ClickAsync(object sender, EventArgs e)
         {
-            try
-            {
-                if (textBox1.Text.Length == 0)
-                {
-                    throw new Exception();
-                }
-                if (queryable2().ToArray().Length > 0)
-                {
-                    throw new Exception();
-                }
-                if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null)
-                {
-                    throw new Exception();
-                }
 
-                Data.films.Add(new Films()
+            var t = Task.Run(async () => {
+                try
                 {
-                    Name = textBox1.Text,
-                    CategoryId = comboBox1.SelectedIndex,
-                    AgeId = comboBox2.SelectedIndex
-                });
-               
-                this.DialogResult = DialogResult.OK;
-            }
-            catch (Exception er)
-            {
-                MessageBox.Show(er.Message, "Eror", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+                    if (textBox1.Text.Length == 0)
+                    {
+                        throw new Exception();
+                    }
+                    if (queryable2().ToArray().Length > 0)
+                    {
+                        throw new Exception();
+                    }
+                    if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null)
+                    {
+                        throw new Exception();
+                    }
+                    await Data.AddFilmAsync(new Films()
+                    {
+                        Name = textBox1.Text,
+                        CategoryId = comboBox1.SelectedIndex,
+                        AgeId = comboBox2.SelectedIndex
+                    });
+                    this.DialogResult = DialogResult.OK;
+                }
+                catch (Exception er)
+                {
+                    MessageBox.Show(er.Message, "Eror", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            });
+           
         }
 
         private void Films1_Load(object sender, EventArgs e)
@@ -79,6 +81,36 @@ namespace Cinema_Ado.Net
             {
                 comboBox2.Items.Add(el.Name);
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

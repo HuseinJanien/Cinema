@@ -8,13 +8,18 @@ namespace Cinema_Ado.Net.Models
 {
     public class Places
     {
-        public int HallId { get; set; }
+        public int Id { get; set; }
         public int Row { get; set; }
-        public Places(int HallId, int Row)
+        public string Name { get; set; }
+        public Places(string Name,int Id, int Row)
         {
-            this.HallId = HallId;
+            this.Name = Name;
+            this.Id = Id;
             this.Row = Row;
         }
 
+        public Places()
+        {
+        }
     }
 }

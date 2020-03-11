@@ -1,0 +1,1 @@
+﻿ALTER TABLE Tickets ALTER COLUMN SessionId int NOT NULL;

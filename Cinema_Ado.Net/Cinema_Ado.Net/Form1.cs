@@ -13,31 +13,29 @@ namespace Cinema_Ado.Net
     public partial class Form1 : Form
     {
         private DataManager dataManager;
-        public Form1()
+        public Form1(DataManager dataManager)
         {
-            this.dataManager = new DataManager();
+            this.dataManager = dataManager;
             InitializeComponent();
            
         }
+
         string? GetCatId(int id)
         {
-            return comboBox1?.Items[id + 1]?.ToString();
-            return null;
+            return comboBox1?.Items[id]?.ToString();
+          
         }
+
         string? GetAgeId(int id)
         {
-            return comboBox2?.Items[id + 1]?.ToString();
-            return null;
+            return comboBox2?.Items[id ]?.ToString();
+           
         }
         private void Init()
         {
-
-
             listView1.Items.Clear();
             comboBox1.Items.Clear();
             comboBox2.Items.Clear();
-            comboBox1.Items.Add("All");
-            comboBox2.Items.Add("All");
             foreach (var el in dataManager.categories)
             {
                 comboBox1.Items.Add(el.Name);
@@ -50,9 +48,8 @@ namespace Cinema_Ado.Net
             {
                 var item = listView1.Items.Add(el.Id.ToString());
                 item.SubItems.Add(el.Name.ToString());
-                item.SubItems.Add(GetCatId(el.CategoryId));
-                item.SubItems.Add(GetAgeId(el.CategoryId));
-
+                item.SubItems.Add(dataManager.GetCategory(el.CategoryId));
+                item.SubItems.Add(dataManager.GetAge(el.AgeId));
             }
             if (comboBox1.Items.Count > 0)
             {
@@ -67,7 +64,6 @@ namespace Cinema_Ado.Net
         private void button1_Click(object sender, EventArgs e)
         {
             Films1 form3 = new Films1(dataManager);
-
             if (DialogResult.OK == form3.ShowDialog())
             {
                 Init();
@@ -77,6 +73,77 @@ namespace Cinema_Ado.Net
         private void Form1_Load(object sender, EventArgs e)
         {
             Init();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int selected = int.Parse(listView1.FocusedItem.SubItems[0].Text);
+            dataManager.DeleteFilm(selected);
+            Init();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CategoryAdd form3 = new CategoryAdd(dataManager);
+            if (DialogResult.OK == form3.ShowDialog())
+            {
+                Init();
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {   
+            if(comboBox1.SelectedIndex!=0)
+            {
+                dataManager.DeleteCategory(comboBox1.Text);
+                Init();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Session1 form3 = new Session1(dataManager);
+            if (DialogResult.Cancel == form3.ShowDialog())
+            {
+
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedIndex != 0)
+            {
+                dataManager.DeleteAge(comboBox2.Text);
+                Init();
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            PlaceManager form3 = new PlaceManager(dataManager);
+            if (DialogResult.Cancel == form3.ShowDialog())
+            {
+
+            }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            TicketManager form3 = new TicketManager(dataManager);
+            if (DialogResult.OK == form3.ShowDialog())
+            {
+
+            }
         }
     }
 }

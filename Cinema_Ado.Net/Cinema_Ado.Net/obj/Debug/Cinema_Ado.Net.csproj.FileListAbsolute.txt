@@ -1,6 +1,5 @@
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csprojAssemblyReference.cache
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Form1.resources
-C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Login.resources
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Properties.Resources.resources
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.GenerateResource.cache
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Database1.mdf
@@ -17,3 +16,364 @@ C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Ne
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.CopyComplete
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe
 C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.pdb
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.CategoryAdd.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Session1.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\LoginApp.frmLogin.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.PlaceManager.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe.config
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\netstandard.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.AppContext.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Specialized.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Console.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Data.Common.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Pipes.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Expressions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Parallel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Queryable.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Http.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NameResolution.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Ping.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Requests.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Security.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Sockets.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ObjectModel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Reader.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Writer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Handles.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Claims.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Principal.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.SecureString.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Thread.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Timer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ValueTuple.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddPlace.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.TicketManager.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddTicket.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Database1.mdf
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Database1_log.ldf
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.exe.config
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.exe
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.pdb
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\netstandard.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.AppContext.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Specialized.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Console.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Data.Common.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Pipes.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Expressions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Parallel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Queryable.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Http.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NameResolution.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Ping.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Requests.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Security.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Sockets.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ObjectModel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Reader.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Writer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Handles.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Claims.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Principal.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.SecureString.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Thread.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Timer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ValueTuple.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csprojAssemblyReference.cache
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe.config
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddPlace.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddTicket.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.CategoryAdd.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Films1.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Form1.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\LoginApp.frmLogin.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.PlaceManager.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Properties.Resources.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Session1.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.TicketManager.resources
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.GenerateResource.cache
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.CopyComplete
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe
+C:\Users\MAKS\Downloads\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.pdb
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Database1.mdf
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Database1_log.ldf
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.exe.config
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.exe
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Cinema_Ado.Net.pdb
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\netstandard.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.AppContext.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Collections.Specialized.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Console.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Data.Common.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.Pipes.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Expressions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Parallel.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Linq.Queryable.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Http.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NameResolution.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Ping.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Requests.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Security.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.Sockets.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Net.WebSockets.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ObjectModel.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Reader.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Resources.Writer.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Handles.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Claims.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.Principal.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Security.SecureString.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Thread.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Timer.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.ValueTuple.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XDocument.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.xml
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csprojAssemblyReference.cache
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe.config
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddPlace.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.AddTicket.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.CategoryAdd.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Films1.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Form1.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\LoginApp.frmLogin.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.PlaceManager.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Properties.Resources.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.Session1.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.TicketManager.resources
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.GenerateResource.cache
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.CoreCompileInputs.cache
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.csproj.CopyComplete
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.exe
+C:\Users\MAKS\source\repos\Cinema-master\Cinema-master – копія\Cinema_Ado.Net\Cinema_Ado.Net\obj\Debug\Cinema_Ado.Net.pdb
