@@ -12,12 +12,12 @@ namespace Cinema_Ado.Net
     class DataManager : DbProvider
     {
         public List<Halls> halls;
-        List<Places> places;
-        List<Category> categories;
-        List<AgeRestriction> ages;
+        public List<Places> places;
+        public List<Category> categories;
+        public List<AgeRestriction> ages;
         public List<Films> films;
         public List<Session> sessions;
-        List<Tickets> tickets;
+        public List<Tickets> tickets;
 
         public DataManager()
         {
@@ -28,22 +28,24 @@ namespace Cinema_Ado.Net
             films = new List<Films>();
             sessions = new List<Session>();
             tickets = new List<Tickets>();
+            LoadData();
         }
 
         public void LoadData()
         {
             string queryHalls = "SELECT * FROM Halls";
-            string queryPlaces = "SELECT * FROM Places";
+            string queryPlaces = "SELECT * FROM Plases";
             string queryCategory = "SELECT * FROM Category";
             string queryAges = "SELECT * FROM AgeRestriction";
             string queryFilms = "SELECT * FROM Films";
             string queryTickets = "SELECT * FROM Tickets";
-            string querySessions = "SELECT * FROM Sessions";
-            connection.Open();
-            SqlCommand cmd = new SqlCommand(queryHalls,connection);
-            SqlDataReader reader = cmd.ExecuteReader();
+            string querySessions = "SELECT * FROM Session";
+            
+            SqlCommand cmd;
+            SqlDataReader reader;
 
             //Hall
+            connection.Open();
             cmd = new SqlCommand(queryHalls, connection);
             reader = cmd.ExecuteReader();
             while(reader.Read())
@@ -53,7 +55,9 @@ namespace Cinema_Ado.Net
                     );
                 halls.Add(h);
             }
+            connection.Close();
             //Places
+            connection.Open();
             cmd = new SqlCommand( queryPlaces, connection);
             reader = cmd.ExecuteReader();
             while(reader.Read())
@@ -64,7 +68,9 @@ namespace Cinema_Ado.Net
                     );
                 places.Add(p);
             }
+            connection.Close();
             //Category
+            connection.Open();
             cmd = new SqlCommand(queryCategory, connection);
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -74,7 +80,9 @@ namespace Cinema_Ado.Net
                     );
                 categories.Add(c);
             }
+            connection.Close();
             //Ages
+            connection.Open();
             cmd = new SqlCommand(queryAges , connection);
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -84,7 +92,9 @@ namespace Cinema_Ado.Net
                     );
                 ages.Add(a);
             }
+            connection.Close();
             //Films
+            connection.Open();
             cmd = new SqlCommand(queryFilms, connection);
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -96,7 +106,9 @@ namespace Cinema_Ado.Net
                     );
                 films.Add(f);
             }
+            connection.Close();
             //Tickets
+            connection.Open();
             cmd = new SqlCommand(queryTickets, connection);
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -104,11 +116,13 @@ namespace Cinema_Ado.Net
                 Tickets t = new Tickets(
                     (int)reader["PlaceId"],
                     (int)reader["SessionId"],
-                    (DateTime)reader["Date"]
+                    (DateTime)reader["DateTime"]
                     );
                 tickets.Add(t);
             }
+            connection.Close();
             //Sessions
+            connection.Open();
             cmd = new SqlCommand(querySessions, connection);
             reader = cmd.ExecuteReader();
             while(reader.Read())
@@ -122,15 +136,33 @@ namespace Cinema_Ado.Net
             }
             connection.Close();
         }
+        //Session
         public void AddSession(Session s)
         {
             string queryAddSession =
-                "insert into Session (HallId, DateTime, FilmId) VALUES (@hallId, @DateTime, @FilmId)";
+                "insert into Session (HallId, DateTime, FilmId) VALUES (@HallId, @DateTime, @FilmId)";
             connection.Open();
             SqlCommand cmd = new SqlCommand(queryAddSession, connection);
-            //cmd.Parameters.Add();
+            cmd.Parameters.Add("@HallId", SqlDbType.Int).Value = s.HallId;
+            cmd.Parameters.Add("@DateTime", SqlDbType.DateTime).Value = s.DateTime;
+            cmd.Parameters.Add("@FilmId", SqlDbType.Int).Value = s.FilmId;
+            cmd.ExecuteNonQuery();
+            connection.Close();
+            sessions.Add(s);
         }
+        public void DelSession(int hallId)
+        {
+            string queryDelSession =
+                 "DELETE Session from Session  where HallId = @HallId";
+            connection.Open();
+            SqlCommand cmd = new SqlCommand(queryDelSession, connection);
+            cmd.Parameters.Add("@HallId", SqlDbType.Int).Value = hallId;
+            cmd.ExecuteNonQuery();
+            connection.Close();
 
-
+            //Session session;
+            //session = sessions.FirstOrDefault(c => c.HallId = hallId); 
+            //sessions.Remove(session);
+        }
     }
 }

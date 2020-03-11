@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Cinema_Ado.Net.Models
 {
     class Category
-    {
+    { 
         public string Name { get; set; }
         public Category(string Name)
         {

@@ -18,30 +18,43 @@ namespace Cinema_Ado.Net
         public Session1()
         {
             InitializeComponent();
-            
+            LoadHall();
+            LoadFilm();
+            LoadSessions();
+        }
+        public void LoadSessions()
+        {
+            listBox3.Items.Clear();
+            foreach (var session in dm.sessions)
+            {
+                listBox3.Items.Add(session.DateTime);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //add
-            //dialogres..
-            
+            dm.AddSession(new Cinema_Ado.Net.Models.Session()
+            {
+                HallId = comboBox1.SelectedIndex + 1,
+                DateTime = Convert.ToDateTime(textBox2.Text),
+                FilmId = comboBox2.SelectedIndex + 1
+            });
+            this.DialogResult = DialogResult.OK;
+            LoadSessions();
 
+            ////int hallId = Convert.ToInt32(comboBox1.SelectedItem.ToString());
+            //int hallId = Convert.ToInt32(comboBox1.SelectedItem.ToString());
+            //DateTime datetime = Convert.ToDateTime(textBox2.Text);
+            //int film = Convert.ToInt32(comboBox2.SelectedItem.ToString());
+            //Session s = new Session(hallId, datetime, film);
+            //dm.AddSession(s);
         }
 
         private void del_SessionBtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void change_SessionBtn_Click(object sender, EventArgs e)
-        { }
-
-        private void LoadSessions()
-        {
-            listView1.Items.Clear();
             
         }
+        
         private void LoadHall()
         {
 
@@ -49,35 +62,22 @@ namespace Cinema_Ado.Net
             comboBox1.Items.Clear();
             foreach(var hall in halls)
             {
-                comboBox1.Items.Add(hall);
+                comboBox1.Items.Add(hall.Name);
             }
-            comboBox1.DisplayMember = "Name";
-        }
-        private void LoadDate()
-        {
-
-            //var halls = dm.halls.ToList();
-            //comboBox1.Items.Clear();
-            //foreach (var hall in halls)
-            //{
-            //    comboBox1.Items.Add(hall);
-            //}
-            //comboBox1.DisplayMember = "Name";
         }
         private void LoadFilm()
         {
-            var films = dm.halls.ToList();
-            comboBox3.Items.Clear();
+            var films = dm.films.ToList();
+            comboBox2.Items.Clear();
             foreach (var film in films)
             {
-                comboBox3.Items.Add(film);
+                comboBox2.Items.Add(film.Name);
             }
-            comboBox3.DisplayMember = "Name";
         }
 
         private void Session1_Load(object sender, EventArgs e)
         {
-            LoadSessions();
+            
         }
     }
 }

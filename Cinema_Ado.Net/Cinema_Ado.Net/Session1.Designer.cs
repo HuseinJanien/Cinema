@@ -30,20 +30,19 @@
         {
             this.add_SessionBtn = new System.Windows.Forms.Button();
             this.del_SessionBtn = new System.Windows.Forms.Button();
-            this.change_SessionBtn = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.Hall = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // add_SessionBtn
             // 
-            this.add_SessionBtn.Location = new System.Drawing.Point(12, 302);
+            this.add_SessionBtn.Location = new System.Drawing.Point(6, 223);
             this.add_SessionBtn.Name = "add_SessionBtn";
             this.add_SessionBtn.Size = new System.Drawing.Size(100, 23);
             this.add_SessionBtn.TabIndex = 0;
@@ -53,7 +52,7 @@
             // 
             // del_SessionBtn
             // 
-            this.del_SessionBtn.Location = new System.Drawing.Point(181, 302);
+            this.del_SessionBtn.Location = new System.Drawing.Point(340, 223);
             this.del_SessionBtn.Name = "del_SessionBtn";
             this.del_SessionBtn.Size = new System.Drawing.Size(100, 23);
             this.del_SessionBtn.TabIndex = 1;
@@ -61,82 +60,90 @@
             this.del_SessionBtn.UseVisualStyleBackColor = true;
             this.del_SessionBtn.Click += new System.EventHandler(this.del_SessionBtn_Click);
             // 
-            // change_SessionBtn
+            // Hall
             // 
-            this.change_SessionBtn.Location = new System.Drawing.Point(356, 302);
-            this.change_SessionBtn.Name = "change_SessionBtn";
-            this.change_SessionBtn.Size = new System.Drawing.Size(100, 23);
-            this.change_SessionBtn.TabIndex = 2;
-            this.change_SessionBtn.Text = "Change Session";
-            this.change_SessionBtn.UseVisualStyleBackColor = true;
-            this.change_SessionBtn.Click += new System.EventHandler(this.change_SessionBtn_Click);
+            this.Hall.AutoSize = true;
+            this.Hall.Location = new System.Drawing.Point(24, 32);
+            this.Hall.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Hall.Name = "Hall";
+            this.Hall.Size = new System.Drawing.Size(28, 13);
+            this.Hall.TabIndex = 6;
+            this.Hall.Text = "Hall:";
             // 
-            // listView1
+            // label2
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3});
-            this.listView1.Location = new System.Drawing.Point(12, 84);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(444, 212);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(188, 32);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Date/Time:";
             // 
-            // columnHeader1
+            // label3
             // 
-            this.columnHeader1.Text = "Hall:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(362, 32);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Film:";
             // 
-            // columnHeader2
+            // textBox2
             // 
-            this.columnHeader2.Text = "Date/Time";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Film:";
-            this.columnHeader3.Width = 133;
+            this.textBox2.Location = new System.Drawing.Point(190, 58);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(52, 20);
+            this.textBox2.TabIndex = 4;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 42);
+            this.comboBox1.Location = new System.Drawing.Point(26, 58);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 4;
+            this.comboBox1.Size = new System.Drawing.Size(62, 21);
+            this.comboBox1.TabIndex = 10;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(171, 42);
+            this.comboBox2.Location = new System.Drawing.Point(364, 58);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 5;
+            this.comboBox2.Size = new System.Drawing.Size(62, 21);
+            this.comboBox2.TabIndex = 11;
             // 
-            // comboBox3
+            // listBox3
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(319, 42);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 6;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Location = new System.Drawing.Point(6, 97);
+            this.listBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(454, 121);
+            this.listBox3.TabIndex = 12;
             // 
             // Session1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 337);
-            this.Controls.Add(this.comboBox3);
+            this.ClientSize = new System.Drawing.Size(468, 265);
+            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.change_SessionBtn);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Hall);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.del_SessionBtn);
             this.Controls.Add(this.add_SessionBtn);
             this.Name = "Session1";
             this.Text = "Session";
             this.Load += new System.EventHandler(this.Session1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -144,14 +151,13 @@
 
         private System.Windows.Forms.Button add_SessionBtn;
         private System.Windows.Forms.Button del_SessionBtn;
-        private System.Windows.Forms.Button change_SessionBtn;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label Hall;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ListBox listBox3;
     }
 }
