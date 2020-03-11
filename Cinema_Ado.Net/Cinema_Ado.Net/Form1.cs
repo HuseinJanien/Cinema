@@ -79,5 +79,20 @@ namespace Cinema_Ado.Net
         {
             Init();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int selected = int.Parse(listView1.FocusedItem.SubItems[0].Text);
+            dataManager.DeleteFilm(selected);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CategoryAdd form3 = new CategoryAdd(dataManager);
+            if (DialogResult.OK == form3.ShowDialog())
+            {
+                Init();
+            }
+        }
     }
 }

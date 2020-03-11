@@ -138,7 +138,35 @@ namespace Cinema_Ado.Net
                 films.Add(f);
                 LoadData();
             }
+        }
 
+        public async Task AddCategoryAsync(Category f)
+        {
+            string queryAddSession = "insert into  Category(Name) VALUES (@Name)";
+            await connection.OpenAsync();
+            using (SqlCommand cmd = new SqlCommand(queryAddSession, connection))
+            {
+                cmd.Parameters.Add("@Name", SqlDbType.NVarChar).Value = f.Name;
+
+                cmd.ExecuteNonQuery();
+                connection.Close();
+                categories.Add(f);
+                LoadData();
+            }
+        }
+
+        public async void DeleteFilm(int Id)
+        {
+   
+                string? query = $"DELETE FROM Films WHERE Id = @Id";
+                await connection.OpenAsync();
+                using (SqlCommand cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@Id", Id);
+                    cmd.ExecuteNonQuery();
+                    connection.Close();               
+                    LoadData();
+                }
 
         }
 

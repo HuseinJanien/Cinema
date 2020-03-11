@@ -13,5 +13,9 @@ namespace Cinema_Ado.Net.Models
         {
             this.Name = Name;
         }
+
+        public Category()
+        {
+        }
     }
 }
