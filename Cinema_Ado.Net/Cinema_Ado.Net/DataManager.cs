@@ -11,12 +11,12 @@ namespace Cinema_Ado.Net
 {
     class DataManager : DbProvider
     {
-        List<Halls> halls;
+        public List<Halls> halls;
         List<Places> places;
         List<Category> categories;
         List<AgeRestriction> ages;
-        List<Films> films;
-        List<Session> sessions;
+        public List<Films> films;
+        public List<Session> sessions;
         List<Tickets> tickets;
 
         public DataManager()
@@ -38,6 +38,7 @@ namespace Cinema_Ado.Net
             string queryAges = "SELECT * FROM AgeRestriction";
             string queryFilms = "SELECT * FROM Films";
             string queryTickets = "SELECT * FROM Tickets";
+            string querySessions = "SELECT * FROM Sessions";
             connection.Open();
             SqlCommand cmd = new SqlCommand(queryHalls,connection);
             SqlDataReader reader = cmd.ExecuteReader();
@@ -107,7 +108,27 @@ namespace Cinema_Ado.Net
                     );
                 tickets.Add(t);
             }
+            //Sessions
+            cmd = new SqlCommand(querySessions, connection);
+            reader = cmd.ExecuteReader();
+            while(reader.Read())
+            {
+                Session s = new Session(
+                    (int)reader["HallId"],
+                    (DateTime)reader["DateTime"],
+                    (int)reader["FilmId"]
+                    );
+                sessions.Add(s);
+            }
             connection.Close();
+        }
+        public void AddSession(Session s)
+        {
+            string queryAddSession =
+                "insert into Session (HallId, DateTime, FilmId) VALUES (@hallId, @DateTime, @FilmId)";
+            connection.Open();
+            SqlCommand cmd = new SqlCommand(queryAddSession, connection);
+            //cmd.Parameters.Add();
         }
 
 

@@ -17,5 +17,6 @@ namespace Cinema_Ado.Net.Models
             this.DateTime = DateTime;
             this.FilmId = FilmId;
         }
+
     }
 }
