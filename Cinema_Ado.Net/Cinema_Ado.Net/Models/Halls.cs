@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Cinema_Ado.Net.Models
 {
-    class Halls
+    public class Halls
     {
+        public int Id { get; set; }
         public string Name { get; set; }
-        public Halls(string Name)
+        public Halls(int Id,string Name)
         {
+            this.Id = Id;
             this.Name = Name;
         }
     }

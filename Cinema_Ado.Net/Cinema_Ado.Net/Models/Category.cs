@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace Cinema_Ado.Net.Models
 {
-    class Category
-    { 
+    public class Category
+    {
+        public int Id { get; set; }
         public string Name { get; set; }
-        public Category(string Name)
+        public Category(int Id,string Name)
         {
+            this.Id = Id;
             this.Name = Name;
+        }
+
+        public Category()
+        {
         }
     }
 }

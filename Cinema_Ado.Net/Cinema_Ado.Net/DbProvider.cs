@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Cinema_Ado.Net
 {
-    class DbProvider
+    public class DbProvider
     {
         string connectionString;
         protected SqlConnection connection;
