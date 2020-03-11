@@ -8,9 +8,11 @@ namespace Cinema_Ado.Net.Models
 {
     public class Category
     {
+        public int Id { get; set; }
         public string Name { get; set; }
-        public Category(string Name)
+        public Category(int Id,string Name)
         {
+            this.Id = Id;
             this.Name = Name;
         }
 

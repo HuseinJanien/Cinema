@@ -50,9 +50,8 @@ namespace Cinema_Ado.Net
             {
                 var item = listView1.Items.Add(el.Id.ToString());
                 item.SubItems.Add(el.Name.ToString());
-                item.SubItems.Add(GetCatId(el.CategoryId).ToString());
-                item.SubItems.Add(GetAgeId(el.AgeId).ToString());
-
+                item.SubItems.Add(dataManager.GetCategory(el.CategoryId));
+                item.SubItems.Add(dataManager.GetAge(el.AgeId));
             }
             if (comboBox1.Items.Count > 0)
             {
@@ -95,9 +94,35 @@ namespace Cinema_Ado.Net
         }
 
         private void button4_Click(object sender, EventArgs e)
-        {           
-            dataManager.DeleteCategory(comboBox1.Text);
-            Init();
+        {   
+            if(comboBox1.SelectedIndex!=0)
+            {
+                dataManager.DeleteCategory(comboBox1.Text);
+                Init();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Session1 form3 = new Session1(dataManager);
+            if (DialogResult.Cancel == form3.ShowDialog())
+            {
+
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedIndex != 0)
+            {
+                dataManager.DeleteAge(comboBox2.Text);
+                Init();
+            }
         }
     }
 }
