@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema_Ado.Net.Models
 {
-    class AgeRestriction
+    public class AgeRestriction
     {
         public int Age { get; set; }
         public AgeRestriction(int Age)

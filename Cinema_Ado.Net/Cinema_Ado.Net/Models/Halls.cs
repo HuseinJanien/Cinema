@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema_Ado.Net.Models
 {
-    class Halls
+    public class Halls
     {
         public string Name { get; set; }
         public Halls(string Name)

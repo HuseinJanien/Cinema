@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema_Ado.Net.Models
 {
-    class Session
+    public class Session
     {
         public int HallId { get; set; }
         public DateTime DateTime{ get; set; }
